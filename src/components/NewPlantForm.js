@@ -11,13 +11,13 @@ function NewPlantForm({ onAddPlant }) {
     const newPlant = { 
       name, 
       image, 
-      price: String(price) // Ensure price is sent as a string
+      price: String(price) 
     };
 
     fetch("http://localhost:6001/plants", {
       method: "POST",
       headers: {
-        "Content-Type": "Application/JSON", // Use exact case expected by the test
+        "Content-Type": "Application/JSON", 
       },
       body: JSON.stringify(newPlant),
     })
@@ -26,7 +26,7 @@ function NewPlantForm({ onAddPlant }) {
         onAddPlant(data);
       });
 
-    // Reset the form after submission
+    
     setName('');
     setImage('');
     setPrice('');
