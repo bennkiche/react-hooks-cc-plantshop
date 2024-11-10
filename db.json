@@ -41,6 +41,12 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "test",
+      "image": "https://c7.alamy.com/comp/T90RPT/young-woman-puts-zz-plant-in-straw-basket-interior-decor-of-living-room-T90RPT.jpg",
+      "price": "30",
+      "id": 8
     }
   ]
 }
